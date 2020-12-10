@@ -1,0 +1,30 @@
+.post{
+    max-width: 500px;
+    background-color: #222831;
+    border: 1px solid #393e46;
+     margin-bottom: 5px; /*test out gap deletion */
+
+}
+.post-head{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.post-avi{
+    margin-right: 10px;
+}
+.post-image{ 
+    width: 100%;
+    object-fit: contain;
+    border-top: 3px solid #393e46;
+    border-bottom: 3px solid #393e46;
+/* style for image container on post */
+
+}
+
+.post-caption{
+    font-weight: normal;
+    padding: 20px;
+
+    /* style for caption */
+}

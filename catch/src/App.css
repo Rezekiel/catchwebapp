@@ -1,0 +1,60 @@
+*{
+  /* create a margin of 0 because we don't want the default 10px  */
+  margin: 0;
+}
+
+.app{
+  background-color: #222831;
+  color: #b3b3b3;
+  font-family: consolas;
+
+}
+/* create container to keep logo as is and ratiod */
+.app-header {
+  background-color: #222831;
+  padding: 20px;
+  border-bottom: 1px solid #ff0057;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  font-size: 100px;
+
+}
+
+
+.app-header-logo{
+  object-fit: contain;
+  height: 60%;
+}
+.app-signup{
+  display: flex;
+  flex-direction: column;
+} 
+/* style for sign up window on modal */
+
+.app-posts{
+  padding-left: 60px;
+  padding-top: 20px;
+}
+/* 
+.app-login{
+  color:#6f86aa;
+  margin:0;
+/* }  
+/* attempted to change font size and color of the sign in/sign up button but was unable to  */
+.warning{
+
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  /* position: fixed;
+  bottom: 0; */
+  background-color: #222831;
+  border-top: 1px solid lightcoral;
+  text-align: center;
+}
